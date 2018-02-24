@@ -29,7 +29,7 @@ Steps to install Go and setup for our Test Server - Kalpana, for MacOS :
 	10.	Creating subfolders in Go workspace from terminal -> mkdir -p $GOPATH $GOPATH/src $GOPATH/pkg $GOPATH/bin
 	11.	Go to Go workspace and check if you have src, bin and pkg folders we just created
 	12.	cd go_workspace/src
-	13.	git clone https://github.com/WWGSouthBay/kalpana.git - Cloning the git repository in our local workspace folder
+	13.	git clone https://github.com/WWGSouthBay/kalpana.git -Cloning the git repository in our local workspace folder
 	14.	cd kalpana/
 	15.	make build - you should be able to see go get and go install being performed for our new project - kalpana
 	16. 	make serve - you should be able to see our test server has started and it displays the port it uses.
