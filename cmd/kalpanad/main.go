@@ -67,7 +67,7 @@ func main() {
 	r.Use(render.SetContentType(render.ContentTypeJSON))
 
 	r.Get("/", func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte("root."))
+		w.Write([]byte("Hello.. Welcome to Go World!!!"))
 	})
 
 	r.Get("/ping", func(w http.ResponseWriter, r *http.Request) {
